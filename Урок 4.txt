@@ -1,0 +1,117 @@
+// #include <iostream>
+// #include <cmath>
+// using namespace std;
+
+// int main()
+// {
+//     //  float money;
+//     //  float converted_money;
+//     //  cout<<"Введите валюту ваших денег: ";
+//     //  string current_valuta;
+//     //  cin>>current_valuta;
+//     //  cout<<"Введите кол-во денег: ";
+//     //   cin>>money;
+//     //  string convert_valuta;
+//     //  cout<<"Введите курс валюты, в которую вы хотите конвертировать деньги: ";
+//     //  cin>>convert_valuta;
+     
+     
+//     //  if(current_valuta == convert_valuta){
+//     //      cout<<money;
+//     //  }
+//     //  else if(current_valuta == "USD" && convert_valuta == "KZT"){
+//     //      converted_money = money * 429.58;
+//     //  }
+//     //  else if(current_valuta == "USD" && convert_valuta == "RUB"){
+//     //      converted_money = money * 73.17;
+//     //  }
+//     //  else if(current_valuta == "RUB" && convert_valuta == "USD"){
+//     //      converted_money = money * 0.013;
+//     //  }
+//     //  else if(current_valuta == "RUB" && convert_valuta == "KZT"){
+//     //      converted_money = money * 5.87;
+//     //  }
+//     //  else if(current_valuta == "KZT" && convert_valuta == "RUB"){
+//     //      converted_money = money * 0.1703;
+//     //  }
+//     //  else if(current_valuta == "KZT" && convert_valuta == "USD"){
+//     //      converted_money = money * (1/429.58);
+//     //  }
+//     //  else{
+//     //      cout<<"Не та валюта";
+//     //  }
+     
+//     //  if(currency=="USD"){
+//     //      converted_money = money*0.0023;
+//     //  }
+//     //  else if(currency=="EU"){
+//     //      converted_money= money*0.002;
+//     //  }
+//     //  else if(currency=="RUB"){
+//     //      converted_money= money*0.17;
+//     //  }
+//     //  cout<<converted_money;
+    
+//     // float a,b,c;
+//     // int D;
+//     // float x1, x2;
+//     // cin>>a>>b;
+//     // c=sqrt(pow(a,2)+pow(b,2));
+    
+//     // D = pow(b,2) - 4*a*c;
+//     // if(D<0){
+//     //     cout<<"Дискриминант меньше нуля";
+//     // }
+//     // else if(D == 0){
+//     //     x1 = (-b)/(2*a);
+//     //     cout<<"X1 равен - "<<x1;
+//     // }
+//     // else{
+//     //     x1 = (-b+ sqrt(D))/(2*a);
+//     //     x2 = (-b - sqrt(D))/(2*a);
+//     //     cout<<"X1 равен: "<<x1<<", X2 равен: "<<x2;
+//     // }
+//     // if((a %2 == 0 || b%2 ==0 || c%2 == 0) && (a%2 ==1 || b%2 == 1 || c%2 == 1)){
+//     //     cout<<"YES";
+//     // }
+//     // else{
+//     //     cout<<"NO";
+//     // }
+//     // int f0 = 0, f1=1, f;
+//     // int n;
+//     // cin>>n;
+//     // for(int i = 1;i<=n;i++){
+        
+//     //     if( i == 1){
+//     //         cout<< f0<<endl;
+//     //     }
+        
+//     //     if(i == 2){
+//     //         cout<<f1<<endl;
+//     //     }
+        
+//     //     f = f0 + f1;
+//     //     f0 = f1;
+//     //     f1 = f;
+//     //     cout<<"Number is "<<f;
+//     // }
+//     int seconds_cin ;
+//     int seconds;
+//     int minutes;
+//     int hours;
+//     cin>>seconds_cin;
+//     hours = seconds_cin / 3600;
+//     if(seconds_cin - 3600 < 0){
+//          minutes = seconds_cin/60;
+//         seconds = seconds_cin % 60;
+//     }
+//     else{
+//     seconds_cin = seconds_cin - 3600;
+
+//     minutes = seconds_cin/60;
+//     seconds = seconds_cin % 60;
+//     }
+    
+//     cout<<hours<<" : "<<minutes<<" : "<<seconds;
+//     return 0;
+// 

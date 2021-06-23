@@ -1,0 +1,98 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    // int n, sum = 0;
+    // cin>>n;
+    // int arr[1000];
+    
+    // for(int i = 0; i < n; i++){
+    //     cin>>arr[i];
+    // }
+    
+    // for(int i = 0; i < n; i++){
+    //     cout<<arr[i]<<" ";
+    // }
+    // int min_num = arr[0];
+    // int max_num = arr[0];
+    // for(int i = 1;i<n;i++){
+    //     if(min_num > arr[i]){
+    //         min_num = arr[i];
+    //     }
+    //     if(max_num < arr[i]){
+    //         max_num = arr[i];
+    //     }
+    // }
+
+    // cout<<endl<<min_num<<" "<<max_num;
+    // int grade;
+    // cin>>grade;
+    // if(grade>=95 && grade<=100){
+    //     cout<<"A";
+    // }
+    
+    // else if(grade>=90 && grade<=95){
+    //     cout<<"A-";
+    // }
+    // else if(grade>=85 && grade<=89){
+    //     cout<<"B+";
+    // }
+    // else if(grade>=80 && grade<=84){
+    //     cout<<"B";
+    // }
+    // else if(grade>=75 && grade<=79){
+    //     cout<<"B-";
+    // }
+    // else if(grade>=70 && grade<=74){
+    //     cout<<"C+";
+    // }
+    // else if(grade>=60 && grade<=69){
+    //     cout<<"C";
+    // }
+    // else if(grade>=50 && grade<=59){
+    //     cout<<"D";
+    // }
+    // else{
+    //     cout<<"Retake";
+    // }
+    // string word = "235";
+    // char random_letter;
+    // char vowel_letters[] = {'a','e', 'i','o', 'u'};
+    // cin>>random_letter;
+    // bool status = false;
+    // for(int i =0;i<5;i++){
+    //     if(random_letter == vowel_letters[i]){
+    //         status = true;
+    //     }
+        
+    // }
+    // if( status == true){
+    //     cout<<"V";
+    // }
+    // else{
+    //     cout<<"C";
+    // }
+    
+    // if(random_letter == 'a' || random_letter == 'e' || random_letter == 'i'
+    // || random_letter == 'o' || random_letter == 'u'){
+    //     cout<<"Vowel letter";
+    // }
+    // else{
+    //     cout<<"Consonant letter";
+    // }
+    // cout<<"Random letter is "<<random_letter;
+    
+    // int massive_arr[] = {4,6,2,1,6,9,3,2,1,2};
+    // int number,counter = 0;
+    // int sum = 0;
+    // // cin>>number;
+    // for(int i=0;i<10;i++){
+    //     if(massive_arr[i] % 2 == 0){
+    //         sum = sum+massive_arr[i];
+    //     }
+    // }
+    // cout<<sum;
+    return 0;
+}
